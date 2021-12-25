@@ -9,8 +9,8 @@ export const isiPad = aspectRatio < 1.6;
 
 // Custom Fonts
 export const fonts = {
-  Regular: {fontFamily: 'Regular'},
-  Light: {fontFamily: 'Light'},
+  Regular: {fontFamily: 'TwinkleStar-Regular'},
+  Light: {fontFamily: 'VujahdayScript-Regular'},
   Medium: {fontFamily: 'Medium'},
   oBold: {fontFamily: 'Bold'},
 };

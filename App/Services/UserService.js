@@ -15,3 +15,9 @@ export const userLogin = async params => {
   const response = await axios.post(ApiConfig.login, params);
   return response.data;
 };
+
+export const getUserList = async page => {
+  const url = `${ApiConfig.userList}${page}`;
+  const response = await axios.get(url);
+  return response.data;
+};

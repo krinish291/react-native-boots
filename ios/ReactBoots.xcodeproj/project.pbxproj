@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ReactBootsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactBootsTests.m */; };
+		08273700EE8A7E41B81CAFDB /* libPods-ReactBoots.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36918D0D7CA77C38D85641AD /* libPods-ReactBoots.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		3FF2E26B434F475986D62D87 /* libPods-ReactBoots-ReactBootsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FD855E27F0749E9065AE27 /* libPods-ReactBoots-ReactBootsTests.a */; };
+		4B26FB5D2776F3BE001EADD2 /* VujahdayScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B26FB5C2776F3BD001EADD2 /* VujahdayScript-Regular.ttf */; };
+		4B3CA6EF2770D94200161814 /* TwinkleStar-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B3CA6EE2770D94200161814 /* TwinkleStar-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9241CDB57A51F1A77A5552B9 /* libPods-ReactBoots.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B39AE563040F72FD85AADB74 /* libPods-ReactBoots.a */; };
+		95BA780FBB03E1605278292C /* libPods-ReactBoots-ReactBootsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CFCB270A98D204A8B34C44 /* libPods-ReactBoots-ReactBootsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,19 +32,21 @@
 		00E356EE1AD99517003FC87E /* ReactBootsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactBootsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ReactBootsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactBootsTests.m; sourceTree = "<group>"; };
-		08FD855E27F0749E9065AE27 /* libPods-ReactBoots-ReactBootsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactBoots-ReactBootsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		108383754BFD0E10EF504F22 /* Pods-ReactBoots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactBoots.release.xcconfig"; path = "Target Support Files/Pods-ReactBoots/Pods-ReactBoots.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ReactBoots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactBoots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactBoots/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReactBoots/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactBoots/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactBoots/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactBoots/main.m; sourceTree = "<group>"; };
-		3ED6E8BBA64E821FD459E51A /* Pods-ReactBoots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactBoots.release.xcconfig"; path = "Target Support Files/Pods-ReactBoots/Pods-ReactBoots.release.xcconfig"; sourceTree = "<group>"; };
-		5199135963308D6DB1501D12 /* Pods-ReactBoots-ReactBootsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactBoots-ReactBootsTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactBoots-ReactBootsTests/Pods-ReactBoots-ReactBootsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DF62A1EFE34E2684D833795 /* Pods-ReactBoots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactBoots.debug.xcconfig"; path = "Target Support Files/Pods-ReactBoots/Pods-ReactBoots.debug.xcconfig"; sourceTree = "<group>"; };
+		2E3CC6879EF0BAE717E46684 /* Pods-ReactBoots-ReactBootsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactBoots-ReactBootsTests.release.xcconfig"; path = "Target Support Files/Pods-ReactBoots-ReactBootsTests/Pods-ReactBoots-ReactBootsTests.release.xcconfig"; sourceTree = "<group>"; };
+		36918D0D7CA77C38D85641AD /* libPods-ReactBoots.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactBoots.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B26FB5C2776F3BD001EADD2 /* VujahdayScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VujahdayScript-Regular.ttf"; sourceTree = "<group>"; };
+		4B3CA6EE2770D94200161814 /* TwinkleStar-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TwinkleStar-Regular.ttf"; sourceTree = "<group>"; };
+		59CFCB270A98D204A8B34C44 /* libPods-ReactBoots-ReactBootsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactBoots-ReactBootsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA8F4629033E44822E16EED /* Pods-ReactBoots-ReactBootsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactBoots-ReactBootsTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactBoots-ReactBootsTests/Pods-ReactBoots-ReactBootsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C1827333D5DB011866A3EAF /* Pods-ReactBoots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactBoots.debug.xcconfig"; path = "Target Support Files/Pods-ReactBoots/Pods-ReactBoots.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactBoots/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B31C282941D7EA24AB7C7EC6 /* Pods-ReactBoots-ReactBootsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactBoots-ReactBootsTests.release.xcconfig"; path = "Target Support Files/Pods-ReactBoots-ReactBootsTests/Pods-ReactBoots-ReactBootsTests.release.xcconfig"; sourceTree = "<group>"; };
-		B39AE563040F72FD85AADB74 /* libPods-ReactBoots.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactBoots.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF2E26B434F475986D62D87 /* libPods-ReactBoots-ReactBootsTests.a in Frameworks */,
+				95BA780FBB03E1605278292C /* libPods-ReactBoots-ReactBootsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9241CDB57A51F1A77A5552B9 /* libPods-ReactBoots.a in Frameworks */,
+				08273700EE8A7E41B81CAFDB /* libPods-ReactBoots.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,22 +104,19 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				B39AE563040F72FD85AADB74 /* libPods-ReactBoots.a */,
-				08FD855E27F0749E9065AE27 /* libPods-ReactBoots-ReactBootsTests.a */,
+				36918D0D7CA77C38D85641AD /* libPods-ReactBoots.a */,
+				59CFCB270A98D204A8B34C44 /* libPods-ReactBoots-ReactBootsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		501E226470997ACABBED84B3 /* Pods */ = {
+		4B3CA6ED2770D92E00161814 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				5DF62A1EFE34E2684D833795 /* Pods-ReactBoots.debug.xcconfig */,
-				3ED6E8BBA64E821FD459E51A /* Pods-ReactBoots.release.xcconfig */,
-				5199135963308D6DB1501D12 /* Pods-ReactBoots-ReactBootsTests.debug.xcconfig */,
-				B31C282941D7EA24AB7C7EC6 /* Pods-ReactBoots-ReactBootsTests.release.xcconfig */,
+				4B26FB5C2776F3BD001EADD2 /* VujahdayScript-Regular.ttf */,
+				4B3CA6EE2770D94200161814 /* TwinkleStar-Regular.ttf */,
 			);
-			name = Pods;
-			path = Pods;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -128,12 +129,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				4B3CA6ED2770D92E00161814 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* ReactBoots */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ReactBootsTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				501E226470997ACABBED84B3 /* Pods */,
+				C220DD3D26F1D4BDFCADA801 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +151,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C220DD3D26F1D4BDFCADA801 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C1827333D5DB011866A3EAF /* Pods-ReactBoots.debug.xcconfig */,
+				108383754BFD0E10EF504F22 /* Pods-ReactBoots.release.xcconfig */,
+				5FA8F4629033E44822E16EED /* Pods-ReactBoots-ReactBootsTests.debug.xcconfig */,
+				2E3CC6879EF0BAE717E46684 /* Pods-ReactBoots-ReactBootsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,12 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactBootsTests" */;
 			buildPhases = (
-				44A8313B8489C7FBFDFAA335 /* [CP] Check Pods Manifest.lock */,
+				D8EDA37932597DA32A5415D9 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				5EF9205CC404AF0663B21EE2 /* [CP] Embed Pods Frameworks */,
-				A1497B28A76AFD0F68DA544C /* [CP] Copy Pods Resources */,
+				70084E2A1EE469CD2FF53EB8 /* [CP] Embed Pods Frameworks */,
+				11C31195168C25158BBFB4E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +190,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactBoots" */;
 			buildPhases = (
-				9DEE48BA6EFDDD592B522057 /* [CP] Check Pods Manifest.lock */,
+				071116E76F224D1E9D3DF0DE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				91D285749A72431AFF8E61BC /* [CP] Embed Pods Frameworks */,
-				0B7C03944019E67500EE4E3C /* [CP] Copy Pods Resources */,
+				32FE089E6C3B04C502CD0F21 /* [CP] Embed Pods Frameworks */,
+				DA50390328D7E3FA8BE695A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,7 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B3CA6EF2770D94200161814 /* TwinkleStar-Regular.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				4B26FB5D2776F3BE001EADD2 /* VujahdayScript-Regular.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,80 +280,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0B7C03944019E67500EE4E3C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactBoots/Pods-ReactBoots-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactBoots/Pods-ReactBoots-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactBoots/Pods-ReactBoots-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		44A8313B8489C7FBFDFAA335 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactBoots-ReactBootsTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5EF9205CC404AF0663B21EE2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactBoots-ReactBootsTests/Pods-ReactBoots-ReactBootsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactBoots-ReactBootsTests/Pods-ReactBoots-ReactBootsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactBoots-ReactBootsTests/Pods-ReactBoots-ReactBootsTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		91D285749A72431AFF8E61BC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactBoots/Pods-ReactBoots-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactBoots/Pods-ReactBoots-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactBoots/Pods-ReactBoots-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9DEE48BA6EFDDD592B522057 /* [CP] Check Pods Manifest.lock */ = {
+		071116E76F224D1E9D3DF0DE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,7 +302,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A1497B28A76AFD0F68DA544C /* [CP] Copy Pods Resources */ = {
+		11C31195168C25158BBFB4E2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,6 +317,79 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactBoots-ReactBootsTests/Pods-ReactBoots-ReactBootsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32FE089E6C3B04C502CD0F21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactBoots/Pods-ReactBoots-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactBoots/Pods-ReactBoots-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactBoots/Pods-ReactBoots-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70084E2A1EE469CD2FF53EB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactBoots-ReactBootsTests/Pods-ReactBoots-ReactBootsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactBoots-ReactBootsTests/Pods-ReactBoots-ReactBootsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactBoots-ReactBootsTests/Pods-ReactBoots-ReactBootsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8EDA37932597DA32A5415D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactBoots-ReactBootsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA50390328D7E3FA8BE695A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactBoots/Pods-ReactBoots-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactBoots/Pods-ReactBoots-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactBoots/Pods-ReactBoots-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -429,7 +444,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5199135963308D6DB1501D12 /* Pods-ReactBoots-ReactBootsTests.debug.xcconfig */;
+			baseConfigurationReference = 5FA8F4629033E44822E16EED /* Pods-ReactBoots-ReactBootsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -456,7 +471,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B31C282941D7EA24AB7C7EC6 /* Pods-ReactBoots-ReactBootsTests.release.xcconfig */;
+			baseConfigurationReference = 2E3CC6879EF0BAE717E46684 /* Pods-ReactBoots-ReactBootsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -480,7 +495,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DF62A1EFE34E2684D833795 /* Pods-ReactBoots.debug.xcconfig */;
+			baseConfigurationReference = 6C1827333D5DB011866A3EAF /* Pods-ReactBoots.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -506,7 +521,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ED6E8BBA64E821FD459E51A /* Pods-ReactBoots.release.xcconfig */;
+			baseConfigurationReference = 108383754BFD0E10EF504F22 /* Pods-ReactBoots.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

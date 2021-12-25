@@ -14,7 +14,7 @@ const currentEnv = ENVIRONMENT.PROD;
 const baseUrl =
   (currentEnv === ENVIRONMENT.PROD && productionUrl) || developmentUrl;
 
-const baseUrlApi = `${baseUrl}api/`;
+const baseUrlApi = `${baseUrl}`;
 
 let ApiConfig = {
   baseUrl,
@@ -22,6 +22,7 @@ let ApiConfig = {
   token: null,
   login: `${baseUrlApi}login`,
   user: `${baseUrlApi}users`,
+  userList: `${baseUrlApi}?seed=abc&results=10&page=`,
 };
 
 export {ApiConfig};

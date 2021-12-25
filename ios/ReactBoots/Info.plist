@@ -35,6 +35,11 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>VujahdayScript-Regular.ttf</string>
+		<string>TwinkleStar-Regular.ttf</string>
+	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>

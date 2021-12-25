@@ -26,6 +26,7 @@ axios.interceptors.request.use(
       Accept: 'application/json',
     };
     request.url = configureUrl(config.url);
+    console.log(request.url);
     return request;
   },
   error => error,
