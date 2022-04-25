@@ -190,7 +190,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactBoots" */;
 			buildPhases = (
-				4BDDB1D72816D58500B5EDBE /* ShellScript */,
 				071116E76F224D1E9D3DF0DE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -336,23 +335,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactBoots/Pods-ReactBoots-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		4BDDB1D72816D58500B5EDBE /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\n\nexport HOMEBREW_NO_INSTALL_CLEANUP=TRUE\nbrew install cocoapods\n# have to add node yourself\nbrew install node@16\n# link it to the path\nbrew link node@16\n\nbrew install yarn\n\n# Install dependencies you manage with CocoaPods.\nyarn\npod install\n";
 		};
 		70084E2A1EE469CD2FF53EB8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
